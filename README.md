@@ -5,6 +5,7 @@ The codebase is divided into two modules :
 
 main script from the jobs module control the flow of the entire pipeline work. the flow of the pipeline is like main -> Reader -> data_quality_checks -> transformation -> aggregation.
 Test scripts can be executed individually in databricks.
+test_metrics script is the one which tests all the tasks from 1 to 5 , which are in the assignment outputs.
 
 <img width="508" height="611" alt="image" src="https://github.com/user-attachments/assets/c381de0a-53c0-4ded-9fa6-0c7779ab1d23" />
 
